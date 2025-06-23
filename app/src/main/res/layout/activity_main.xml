@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvMensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mensaje inicial"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnIrASegunda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ir a la segunda actividad"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnCompartir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Compartir mensaje"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/etTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe un número de teléfono"
+        android:inputType="phone"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnLlamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Llamar"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/etUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe una URL (ej. www.google.com)"
+        android:inputType="textUri"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnAbrirWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abrir página web"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnEnviarCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar correo electrónico"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
